@@ -1,0 +1,20 @@
+{
+  "crons": [
+    {
+      "path": "/api/admin/drafts/run",
+      "schedule": "30 0 * * *"
+    },
+    {
+      "path": "/api/cron/classify",
+      "schedule": "* * * * *"
+    },
+    {
+      "path": "/api/cron/close-polls",
+      "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/cron/archetypes",
+      "schedule": "0 22 * * *"
+    }
+  ]
+}
